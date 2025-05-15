@@ -1,4 +1,4 @@
-# Ibrahim Hiarea Portfolio
+# GOPISETTY SAI CHARAN Portfolio
 
 This repository contains a portfolio project built using React.js and Vite. The portfolio showcases my skills, projects, and experience as a developer.
 

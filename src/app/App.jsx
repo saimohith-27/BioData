@@ -25,11 +25,11 @@ import { FaDatabase } from "react-icons/fa";
 
 //import images
 import Ataa from '../assets/images/Ataa.png';
-import Elzero from '../assets/images/Elzero.png';
+//import Elzero from '../assets/images/Elzero.png';
 import Kasper from '../assets/images/Kasper.png';
 import Leon from '../assets/images/Leon.png';
 import SokoNumber from '../assets/images/SokoNumber.png';
-import GlobalShare from '../assets/images/GlobalShare.png';
+//import GlobalShare from '../assets/images/GlobalShare.png';
 
 // import style
 import style from './App.module.css';
@@ -109,48 +109,48 @@ const skills = [
 ];
 
 const projects = [
+	// {
+	// 	name: 'Global Share',
+	// 	link: 'https://ibrahimhiarea.github.io/Global-Share/#/home',
+	// 	github: 'https://github.com/IbrahimHiarea/Global-Share',
+	// 	description: 'The Global Share ERP System is an innovative web-based application designed to streamline volunteer recruitment, management, and reward systems. It incorporates task management, recruitment, and gamification features to enhance employee engagement, promote effective communication, and drive organizational excellence.',
+	// 	image: GlobalShare
+	// },
 	{
-		name: 'Global Share',
-		link: 'https://ibrahimhiarea.github.io/Global-Share/#/home',
-		github: 'https://github.com/IbrahimHiarea/Global-Share',
-		description: 'The Global Share ERP System is an innovative web-based application designed to streamline volunteer recruitment, management, and reward systems. It incorporates task management, recruitment, and gamification features to enhance employee engagement, promote effective communication, and drive organizational excellence.',
-		image: GlobalShare
-	},
-	{
-		name: `Ata'a`,
-		link: 'https://ibrahimhiarea.github.io/Ataa-Dashboard/',
-		github: 'https://github.com/IbrahimHiarea/Ataa-Dashboard',
-		description: "Ataa is a web application built with React for managing and organizing the operations of a charity organization. The application includes a landing page that provides an overview of the charity's mission and goals. Staff members of the charity can log in to the main dashboard, which allows them to manage and control the projects, employees, and beneficiaries associated with the charity. Additionally, there is a section dedicated to viewing the total budget of the charity, as well as the budget allocated to each individual project.",
+		name: 'Friendly Finder',
+		link: 'https://friendlyfinder.streamlit.app',
+		github: 'https://github.com/Sai34Charan/Final_Project_FriendlyFinder/tree/main',
+		description: 'Introducing FriendlyFinder 👀🔍, an AI-powered solution designed to assist visually impaired individuals in navigating and interacting with their surroundings. The goal of this project was to leverage Generative AI to address key challenges faced by visually impaired individuals, including : Real-time scene understanding , Text-to-speech conversion for reading visual content, Object and obstacle detection for safe navigation, Personalized assistance for daily tasks.',
 		image: Ataa
 	},
 	{
-		name: 'SoKo Number',
-		link: 'https://ibrahimhiarea.github.io/Soko-Number/',
-		github: 'https://github.com/IbrahimHiarea/Soko-Number',
-		description: 'Soko Number is a puzzle game built with the React framework. The game consists of 6 challenging levels that will test your problem-solving skills. Each level presents a grid-based puzzle where you need to move numbered tiles to their designated positions.',
+		name: 'AI Code Reviewer',
+		link: 'https://ai-code-reviewer-qngeowhf8rwhzm6yjw6xst.streamlit.app/',
+		github: 'https://github.com/Sai34Charan/AI-Code-Reviewer',
+		description: 'Introducing AI Code Reviewer, an intelligent tool designed to streamline the process of code analysis and error detection. This solution identifies syntactical and logical errors in real-time and provides actionable suggestions for corrections, helping developers write cleaner and more efficient code. This project highlights my ability to integrate AI with software development, demonstrating a commitment to enhancing productivity and simplifying complex workflows for developers.',
 		image: SokoNumber
 	},
 	{
-		name: 'Leon',
-		link: 'https://ibrahimhiarea.github.io/Leon/',
-		github: 'https://github.com/IbrahimHiarea/Leon',
-		description: 'Leon is a modern and responsive HTML and CSS design template that provides a sleek and visually appealing foundation for building stunning websites. With its clean and elegant design, Leon focuses on simplicity and exceptional user experience.',
+		name: 'AgriGrowth',
+		link: 'https://friendly-phone-473316.framer.app/',
+		github: 'https://github.com/Sai34Charan/AgriGrowth-website',
+		description: 'I created AgriGrowth, a user-friendly website designed to empower farmers with efficient navigation and access to essential resources. The platform provides interactive tools and intuitive interfaces to help farmers locate markets, resources, and agricultural services. This project demonstrates my ability to design solutions that address real-world challenges, combining technical expertise with user-centric design to make a meaningful impact in the agricultural sector.',
 		image: Leon
 	},
 	{
-		name: 'Kasper',
-		link: 'https://ibrahimhiarea.github.io/Kasper/',
-		github: 'https://ibrahimhiarea.github.io/Kasper/',
-		description: 'Kaspar is a modern and responsive HTML and CSS design template that provides a sleek and visually appealing foundation for building stunning websites. With its clean and elegant design, Kaspar focuses on simplicity and exceptional user experience.',
+		name: 'Match Master',
+		link: 'https://saimohith-27.github.io/Match-Master/',
+		github: 'https://github.com/saimohith-27/Match-Master',
+		description: 'Introducing Match Master, an engaging and interactive memory game created using HTML, CSS, and JavaScript. The game challenges players to test their memory by matching pairs of cards while incorporating dynamic animations and a responsive design. This project highlights my expertise in front-end development, showcasing my ability to create visually appealing and user-friendly web applications.',
 		image: Kasper
 	},
-	{
-		name: 'Elzero',
-		link: 'https://ibrahimhiarea.github.io/Elzero/',
-		github: 'https://github.com/IbrahimHiarea/Elzero',
-		description: 'Elzero is a stylish and interactive HTML, CSS, and JavaScript design template that offers a modern and engaging user experience. With its clean code structure and well-designed components, Elzero provides a solid foundation for building dynamic and visually appealing web applications.',
-		image: Elzero
-	},
+	// {
+	// 	name: 'Elzero',
+	// 	link: 'https://ibrahimhiarea.github.io/Elzero/',
+	// 	github: 'https://github.com/IbrahimHiarea/Elzero',
+	// 	description: 'Elzero is a stylish and interactive HTML, CSS, and JavaScript design template that offers a modern and engaging user experience. With its clean code structure and well-designed components, Elzero provides a solid foundation for building dynamic and visually appealing web applications.',
+	// 	image: Elzero
+	// },
 ]
 
 function App() {
@@ -212,9 +212,10 @@ function App() {
 			<div id='Home' className={style.home}>
 				<div className={style["home-content"]}>
 					<h1>HEY, I'M GOPISETTY SAI CHARAN</h1>
-					<p>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
+					<p>A Frontend-focused Web Developer passionate about building Websites and Web Applications while integrating data science to enhance the success of the overall product.
+</p>
 					<a
-						href="https://drive.google.com/file/d/1JtcSUnthEUFniW3lo2rM2x026SmiS_jD/view?usp=sharing"
+						href="https://drive.google.com/file/d/1JtcSUnthEUFniW3lo2rM2x026SmiS_jD/view?usp=sharing " target='blank'
 						// download="cv-PDF-document"
 						// target="_blank"
 						// rel="noopener noreferrer"
@@ -224,14 +225,14 @@ function App() {
 						</DownloadButton>
 					</a>
 				</div>
-				<div className={style["scroll-icon"]}>
+				{/* <div className={style["scroll-icon"]}>
 					<div className={style["scroll-down"]} style={{ color: "skyblue !important" }}>
 						<div className={style.chevrons}>
 							<div className={style["chevron-down"]}></div>
 							<div className={style["chevron-down"]}></div>
 						</div>
 					</div>
-				</div>
+				</div> */}
 				<div className={style["contact-nav"]}>
 					<a className={style.github} target="_blank" href='https://github.com/Sai34Charan' >
 						<AiFillGithub size="30px" color='black' />
@@ -242,7 +243,7 @@ function App() {
 					<a className={style.gmail} target="_blank" href="mailto:saicharangopisetty23@gmail.com?subject=SendMail&body=Description" >
 						<BiLogoGmail size="30px" color='black' />
 					</a>
-					<a className={style.facebook} target="_blank" href='https://www.facebook.com/share/7176bazs865' >
+					<a className={style.facebook} target="_blank" href='https://www.facebook.com/profile.php?id=100088371281816' >
 						<BsFacebook size="30px" color='black' />
 					</a>
 				</div>
@@ -257,8 +258,8 @@ function App() {
 						<div className={style["about-info"]}>
 							<h3>Get to know me!</h3>
 							<p>
-								I'm a <span>Frontend Web Developer</span> building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the <span>Projects</span> section. <br /> <br />
-								I also like sharing content related to the stuff that I have learned over the years in <span>Web Development</span> so it can help other people of the Dev Community. Feel free to Connect or Follow me on my <a href="https://github.com/Sai34Charan" target="_blank">Github</a> where I post useful content related to Web Development and Programming. <br /> <br />
+								I'm a <span>Frontend Web Developer</span> and a <span>Aspiring Data Scientist</span> building the Front-end of Websites and Web Applications using AI that leads to the success of the overall product. Check out some of my work in the <span>Projects</span> section. <br /> <br />
+								I also like sharing content related to the stuff that I have learned over the years in <span>Web Development</span> and <span>Data Science </span>so it can help other people of the Dev Community. Feel free to Connect or Follow me on my <a href="https://github.com/Sai34Charan" target="_blank">Github</a> where I post useful content related to Web Development and Data Science. <br /> <br />
 								I'm open to <span>Job</span> opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to <span>contact</span> me.
 							</p>
 						</div>
@@ -400,7 +401,7 @@ function App() {
 								<a className={style.gmail} target="_blank" href="mailto:saicharangopisetty23@gmail.com?subject=SendMail&body=Description" >
 									<BiLogoGmail size="30px" color='white' />
 								</a>
-								<a className={style.facebook} target="_blank" href='https://www.facebook.com/share/7176bazs865' >
+								<a className={style.facebook} target="_blank" href='https://www.facebook.com/profile.php?id=100088371281816' >
 									<BsFacebook size="30px" color='white' />
 								</a>
 							</div>
